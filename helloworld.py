@@ -10,4 +10,4 @@ class BaseModel(Model):
 
 
 class Random(BaseModel):
-    text = CharField()
+    count = IntegerField(null=True)
